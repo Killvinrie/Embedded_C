@@ -88,6 +88,6 @@ traceRETURN_vTaskDelay();
 }
 ```
 
-核心：`prvAddCurrentTaskToDelayedList(xTicksToDelay, pdFALSE)` 
+核心：[[prvAddCurrentTaskToDelayedList()]]
 ==🔴将当前task从ready_list迁移到delay_list中
 

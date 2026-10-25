@@ -23,4 +23,15 @@ typedef struct xLIST_ITEM ListItem_t;
 ```
 
 `
-`xItemValue`是delay列表中解除任务delay的时间点，由[[xTickCount]]与[[vTaskDelay()]]传入的timetodelay参数求和得到
+
+
+`xItemValue` 可以表示任务优先级，也可以表示任务应解除阻塞的时间，取决于链表用途。对于event链表来说就是优先级，在最初创建任务的时候赋值，优先级越大，`xItemValue`越小
+
+```c
+listSET_LIST_ITEM_VALUE(
+    &(pxNewTCB->xEventListItem),
+    configMAX_PRIORITIES - uxPriority
+);
+```
+
+在[[prvAddCurrentTaskToDelayedList()]]中，`xItemValue`由[[xTickCount]]与[[vTaskDelay()]]传入的timetodelay参数求和得到
