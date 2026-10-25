@@ -1,0 +1,1 @@
+由[[xTaskIncrementTick()]]计算出的delay列表中剩余时间最短的时间，也就是第一个任务或者新插入的任务中listitem最小的那个listitem
