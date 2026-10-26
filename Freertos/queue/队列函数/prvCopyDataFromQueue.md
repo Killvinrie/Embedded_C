@@ -1,0 +1,1 @@
+与[[prvCopyDataToQueue]]逻辑几乎相同，通过[[memcpy]]从队列拷贝数据
