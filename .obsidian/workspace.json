@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Freertos/kernel/xPortPendSVHandler( void ).md",
+                "file": "bootloader/GPT_tutorial.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "xPortPendSVHandler( void )"
+              "title": "GPT_tutorial"
             }
           }
         ],
@@ -342,10 +342,13 @@
   },
   "active": "a4ae7ad556a12f34",
   "lastOpenFiles": [
+    "bootloader/工作流程.md",
+    "bootloader/GPT_tutorial.md",
+    "Freertos/kernel/xPortPendSVHandler( void ).md",
+    "bootloader",
     "Freertos/kernel/xPortSysTickHandler().md",
     "Freertos/kernel/xTaskIncrementTick().md",
     "Freertos/kernel/vTaskSwitchContext().md",
-    "Freertos/kernel/xPortPendSVHandler( void ).md",
     "Freertos/kernel/vTaskSuspendAll.md",
     "Freertos/kernel/vTaskDelay().md",
     "Freertos/kernel/taskSELECT_HIGHEST_PRIORITY_TASK().md",
@@ -367,8 +370,6 @@
     "Freertos/list/全局变量/xNumOfOverflows.md",
     "Freertos/list/全局变量/xNextTaskUnblockTime.md",
     "Freertos/list/全局变量/uxTopReadyPriority.md",
-    "README.md",
-    "question.md",
     "c",
     "tools",
     "Freertos/信号量",
@@ -377,7 +378,6 @@
     "Freertos/queue",
     "c/libc",
     "计算机组成",
-    "Freertos/queue/队列函数",
     "Pasted image 20261025003022.png"
   ]
 }
