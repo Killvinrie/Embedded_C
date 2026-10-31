@@ -12,8 +12,16 @@ const TickType_t xTicksToWait )
 
 ```
 
-
+# 被调用
 由[[xQueueSemaphoreTake()]]或者[[xQueueGenericSend()]]和[[xQueueReceive()]]函数调用
+
+
+
+# 调用方
+[[prvAddCurrentTaskToDelayedList()]]
+
+
+
 
 将当前任务同时插入队列的waitinglist以及delaylist
 

@@ -4,11 +4,12 @@ typedef struct QueueDefinition
     int8_t *pcHead;
     int8_t *pcWriteTo;
 
-    union
-    {
-        QueuePointers_t xQueue;
-        // ...
-    } u;
+	union
+	{
+		QueuePointers_t xQueue; /**< Data required exclusively when this structure is used as a queue. */
+
+		SemaphoreData_t xSemaphore; /**< Data required exclusively when this structure is used as a semaphore. */
+	} u;
 
     List_t xTasksWaitingToSend;
     List_t xTasksWaitingToReceive;
