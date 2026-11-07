@@ -4,165 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "893130b0caee3a66",
+        "id": "bfe491d348fdace4",
         "type": "tabs",
         "children": [
           {
-            "id": "d22c7770a358093a",
+            "id": "441e35de51a29211",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Freertos/线程安全.md",
-                "mode": "source",
-                "source": false
+                "aFile": "c/union联合体.md",
+                "bFile": "c/union联合体.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "线程安全"
+              "icon": "diff",
+              "title": "Diff: union联合体  (Working Tree)"
             }
           },
           {
-            "id": "49931319b898aed0",
+            "id": "f7153670cb5bad8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Freertos/线程安全.md",
+                "file": "MCU&DRIVER/复习笔记.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "线程安全"
-            }
-          },
-          {
-            "id": "b1da3ee2e167b79c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Freertos/list/List_t.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "List_t"
-            }
-          },
-          {
-            "id": "254a782932303a4c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Freertos/list/ListItem_t.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ListItem_t"
-            }
-          },
-          {
-            "id": "a07464a9c50a258c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Freertos/list/vListInitialise().md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "vListInitialise()"
-            }
-          },
-          {
-            "id": "185fb26e4658e4c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Freertos/list/变量/uxTopReadyPriority.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "uxTopReadyPriority"
-            }
-          },
-          {
-            "id": "ba597016ec02f8d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Freertos/list/结构体/MiniListItem_t.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MiniListItem_t"
-            }
-          },
-          {
-            "id": "8f44ddd086677214",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Freertos/list/结构体/ListItem_t.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ListItem_t"
-            }
-          },
-          {
-            "id": "73eabe80ea919d73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Freertos/list/全局变量/uxTopReadyPriority.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "uxTopReadyPriority"
-            }
-          },
-          {
-            "id": "300666cf53ea96d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Freertos/list/列表结构体/ListItem_t.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ListItem_t"
-            }
-          },
-          {
-            "id": "a4ae7ad556a12f34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Freertos/queue/队列结构体/Queue_t.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Queue_t"
+              "title": "复习笔记"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -340,35 +214,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a4ae7ad556a12f34",
+  "active": "f7153670cb5bad8c",
   "lastOpenFiles": [
-    "c/union联合体.md",
-    "Freertos/queue/队列结构体/Queue_t.md",
-    "Freertos/信号量/xTaskPriorityInherit().md",
-    "Freertos/信号量/优先级继承.md",
-    "Freertos/信号量/优先级反转.md",
-    "Freertos/信号量/xTaskPriorityDisinherit().md",
+    "leetcode/刷题顺序.md",
+    "leetcode/移除0.md",
+    "MCU&DRIVER/复习笔记.md",
+    "MCU&DRIVER",
+    "c/inline内联函数.md",
+    "c/sizeof关键字.md",
+    "c/libc/malloc.md",
+    "c/libc/memcpy.md",
     "八股.md",
     "README.md",
     "question.md",
-    "tools/gdb.md",
-    "tools/cmake/未命名.md",
-    "Freertos/list/函数/列表函数/listGET_OWNER_OF_NEXT_ENTRY().md",
-    "tools/cmake.md",
-    "tools/cmake",
-    "Freertos/kernel/taskSELECT_HIGHEST_PRIORITY_TASK().md",
-    "bootloader/LD_EXPLAINED.md",
-    "Freertos/list/函数/列表函数/prvAddTaskToReadyList().md",
-    "Freertos/list/函数/列表函数/uxListRemove().md",
-    "Freertos/list/函数/列表函数/vListInsert().md",
+    "bootloader/Flash擦写与UART升级协议.md",
+    "bootloader/F411 Flash与AB分区.md",
+    "bootloader/Cortex-M4上电启动.md",
+    "leetcode",
+    "file:/home/kevin/Downloads/数据结构与算法基础学习包_C语言版/dsa_c_learning_pack/完整教程.md",
+    "dsa_c_learning_pack/chapters/03_linked_lists.md",
+    "dsa_c_learning_pack/chapters/02_arrays_strings.md",
+    "dsa_c_learning_pack/chapters/01_complexity.md",
+    "dsa_c_learning_pack/chapters/00_guide.md",
+    "c/指针/野指针.md",
+    "c/指针/函数指针.md",
+    "c/指针/void 指针.md",
     "c/stackoverflow.md",
-    "bootloader/启动元数据与自动回滚.md",
-    "bootloader/startup_stm32f411xe.S.md",
-    "Freertos/list/函数/列表函数/prvAddCurrentTaskToDelayedList().md",
-    "Freertos/kernel/vTaskDelay().md",
-    "Freertos/list/函数/列表函数/ListInitialiseItem().md",
-    "Freertos/list/全局变量/xNumOfOverflows.md",
-    "Freertos/list/全局变量/xNextTaskUnblockTime.md",
+    "c/union联合体.md",
+    "c/三目运算符.md",
+    "c/内存对齐.md",
+    "c/大小端.md",
+    "tools/cmake",
     "bootloader",
     "Freertos/kernel",
     "c",
@@ -376,8 +252,6 @@
     "Freertos/信号量",
     "Freertos/task",
     "Freertos/queue/队列结构体",
-    "Freertos/queue",
-    "c/libc",
     "Pasted image 20261025003022.png"
   ]
 }
