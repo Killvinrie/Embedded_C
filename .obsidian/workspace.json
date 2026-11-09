@@ -13,26 +13,26 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "c/union联合体.md",
-                "bFile": "c/union联合体.md",
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: union联合体  (Working Tree)"
+              "title": "Diff: .gitignore  (Working Tree)"
             }
           },
           {
-            "id": "f7153670cb5bad8c",
+            "id": "0993688da6dec53f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MCU&DRIVER/复习笔记.md",
+                "file": "leetcode/刷题顺序.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "复习笔记"
+              "title": "刷题顺序"
             }
           }
         ],
@@ -214,11 +214,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f7153670cb5bad8c",
+  "active": "0993688da6dec53f",
   "lastOpenFiles": [
-    "leetcode/刷题顺序.md",
     "leetcode/移除0.md",
+    "leetcode/刷题顺序.md",
     "MCU&DRIVER/复习笔记.md",
+    "file:/home/kevin/Desktop/STM32-OTA学习笔记/00 开始阅读.md",
+    "ota复习计划.md",
+    "question.md",
     "MCU&DRIVER",
     "c/inline内联函数.md",
     "c/sizeof关键字.md",
@@ -226,7 +229,6 @@
     "c/libc/memcpy.md",
     "八股.md",
     "README.md",
-    "question.md",
     "bootloader/Flash擦写与UART升级协议.md",
     "bootloader/F411 Flash与AB分区.md",
     "bootloader/Cortex-M4上电启动.md",
@@ -242,8 +244,6 @@
     "c/stackoverflow.md",
     "c/union联合体.md",
     "c/三目运算符.md",
-    "c/内存对齐.md",
-    "c/大小端.md",
     "tools/cmake",
     "bootloader",
     "Freertos/kernel",
