@@ -1,0 +1,1 @@
+在初始化stack和TCB之后由[[prvCreateTask()]]调用,

@@ -8,31 +8,73 @@
         "type": "tabs",
         "children": [
           {
-            "id": "441e35de51a29211",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".gitignore",
-                "bFile": ".gitignore",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: .gitignore  (Working Tree)"
-            }
-          },
-          {
             "id": "0993688da6dec53f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Freertos/kernel/function/taskSELECT_HIGHEST_PRIORITY_TASK().md",
+                "file": "Freertos/kernel/function/prvCreateTask().md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "taskSELECT_HIGHEST_PRIORITY_TASK()"
+              "title": "prvCreateTask()"
+            }
+          },
+          {
+            "id": "84992452fced723a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Freertos/信号量/prvInitialiseMutex().md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "prvInitialiseMutex()"
+            }
+          },
+          {
+            "id": "b5ba12a202b79fde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Freertos/信号量/xQueueCreateMutex().md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "xQueueCreateMutex()"
+            }
+          },
+          {
+            "id": "3f380db4adf28df0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Freertos/信号量/xQueueSemaphoreTake().md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "xQueueSemaphoreTake()"
+            }
+          },
+          {
+            "id": "3aeff0bdadf213a8",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Freertos/kernel/function/vTaskDelay().md",
+                "bFile": "Freertos/kernel/function/vTaskDelay().md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: vTaskDelay()  (Working Tree)"
             }
           },
           {
@@ -69,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "八股/八股.md",
+                "file": "Freertos/task/prvCreateTask().md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "八股"
+              "title": "prvCreateTask()"
             }
           }
         ],
@@ -256,43 +298,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3eda17fce26e5307",
+  "active": "3aeff0bdadf213a8",
   "lastOpenFiles": [
-    "c/libc/malloc.md",
     "八股/八股.md",
-    "八股",
-    "README.md",
-    "八股/08-模拟面试与速查.md",
-    "八股/实验代码/实验说明.md",
-    "八股/00-开始这里.md",
-    "八股/01-Day1-C语言与编译基础.md",
-    "八股/02-Day2-内存布局与外设总线.md",
-    "八股/03-Day3-FreeRTOS调度与上下文.md",
-    "八股/04-Day4-FreeRTOS同步与中断.md",
-    "八股/05-Day5-WiFi与TCPUDP.md",
-    "八股/06-Day6-BLE-MQTT与低功耗.md",
-    "八股/07-Day7-OTA安全与看门狗.md",
-    "Freertos/可重入性.md",
-    "Freertos/变量名规则.md",
-    "Freertos/线程安全.md",
-    "c/union联合体.md",
+    "Freertos/kernel/function/xPortPendSVHandler( void ).md",
+    "Freertos/kernel/function/xPortSysTickHandler().md",
+    "Freertos/kernel/function/xTaskIncrementTick().md",
+    "Freertos/kernel/function/vTaskSwitchContext().md",
+    "Freertos/kernel/function/xTaskCreate().md",
+    "Freertos/kernel/variable/pxCurrentTCB.md",
+    "Freertos/kernel/variable/pxReadyTasksLists.md",
+    "Freertos/kernel/function/prvInitialiseNewTask().md",
+    "Freertos/kernel/function/prvCreateTask().md",
+    "leetcode/刷题顺序.md",
+    "Freertos/信号量/举例.md",
+    "Freertos/信号量/xTaskPriorityInherit().md",
+    "pxReadyTasksLists.md",
+    "Freertos/信号量/xTaskPriorityDisinherit().md",
+    "Freertos/信号量/优先级反转.md",
+    "Freertos/list/函数/列表函数/listGET_OWNER_OF_NEXT_ENTRY().md",
+    "Freertos/list/链表.md",
+    "Freertos/kernel/variable/TCB.md",
+    "Freertos/信号量/优先级继承.md",
+    "Freertos/信号量/xQueueSemaphoreTake().md",
+    "Freertos/kernel/variable/uxSchedulerSuspended.md",
+    "Freertos/信号量/prvInitialiseMutex().md",
+    "Freertos/信号量/xQueueCreateMutex().md",
+    "leetcode/移除0.md",
     "MCU&DRIVER/复习笔记.md",
-    "question.md",
+    "Freertos/教程",
+    "八股",
     "八股/实验代码/05_stream_parser.c",
     "八股/实验代码/03_volatile.c",
     "八股/实验代码/02_layout.c",
     "八股/实验代码/01_basics.c",
     "八股/实验代码",
     "八股",
-    "Freertos/信号量/优先级继承.md",
-    "Freertos/信号量/优先级反转.md",
-    "Freertos/信号量/xTaskPriorityDisinherit().md",
-    "Freertos/信号量/xQueueCreateMutex().md",
-    "Freertos/信号量/prvInitialiseMutex().md",
-    "Freertos/信号量/xQueueSemaphoreTake().md",
     "Freertos/kernel/variable",
     "Freertos/kernel/function",
-    "MCU&DRIVER",
     "Pasted image 20261025003022.png"
   ]
 }

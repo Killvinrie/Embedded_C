@@ -1,0 +1,2 @@
+- 检查delay列表中是否存在ListItem小于[[xTickCount]]的列表项
+- 将所有满足时间的列表项从delay列表删除，并且根据优先级分别加入ready列表
